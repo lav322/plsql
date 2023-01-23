@@ -1,0 +1,12 @@
+--create or replace procedure print(text in varchar2 default 'this is the print procedure')is
+--begin
+--dbms_output.put_line(text);
+--end;
+--exec print(null);
+-------------------A standard run of the procedure
+--exec ADD_JOB('IT_DIR','IT Director',5000,20000); 
+----exec  ADD_JOB('IT_DIR3','IT Director');
+--exec  ADD_JOB('IT_DIR5','IT Director',max_salary => 10000);
+-------------------Running a procedure with the named notation example 2
+--exec ADD_JOB(job_title=>'IT Director',job_id=>'IT_DIR7',max_salary=>10000 , min_salary=>500);
+--select * from jobs;
